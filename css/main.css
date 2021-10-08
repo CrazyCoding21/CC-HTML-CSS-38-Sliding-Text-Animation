@@ -1,0 +1,41 @@
+
+  body {
+    background: #fff;
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    font-family: monospace;
+    font-size: 8vw;
+    color: #000;
+  }
+ ul{
+     list-style: none;
+     padding: 0;
+     margin: 0;
+     transition: all 1s;
+     animation: Roullete 3s linear 1s infinite;
+ } 
+#cover{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.re-star{
+    display: flex;
+    flex-direction: row;
+}
+.suffix{
+    height: 1em;
+    overflow: hidden;
+    padding-right: 0.5em;
+}
+@keyframes Roullete{
+    from{
+        transform: translateY(0);
+    }
+    to{
+        transform: translateY(-5.8em);
+    }
+}
